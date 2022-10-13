@@ -37,7 +37,7 @@ public class ActualizarObjetoJPA {
         tx.commit();
         
         // Imprimimos el Objeto en estado de Detached
-        log.debug("Objeto recuperado con éxito: " + persona1);
+        log.debug("Objeto recuperado con éxito infito: " + persona1);
         
         // Paso 4. Modificamos el Objeto
         persona1.setApellido("Menéndez");
